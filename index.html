@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Arco de San Martí</title>
+</head>
+<body>
+    <h1 onclick="toggleColors()">Arc de Sant Martí</h1>
+    <div class="linea-color roig">roig, red, rojo</div>
+    <div class="linea-color taronja">taronja, orange, naranja</div>
+    <div class="linea-color groc">groc, yellow, amarillo</div>
+    <div class="linea-color verd">verd, green, verde</div>
+    <div class="linea-color blau-clar">blau clar, light blue, azul claro</div>
+    <div class="linea-color blau">blau, blue, azul</div>
+    <div class="linea-color morat">morat, purple, morado</div>
+
+    <script>
+        function toggleColors() {
+            const body = document.body;
+            body.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

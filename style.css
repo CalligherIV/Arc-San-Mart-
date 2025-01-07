@@ -1,0 +1,25 @@
+h1 {
+    cursor: pointer;
+    text-align: center;
+}
+
+.linea-color {
+    padding: 5px;
+    transition: color 0.3s;
+}
+
+.roig:hover { color: red; }
+.taronja:hover { color: orange; }
+.groc:hover { color: yellow; }
+.verd:hover { color: green; }
+.blau-clar:hover { color: lightblue; }
+.blau:hover { color: blue; }
+.morat:hover { color: purple; }
+
+.active .roig { color: red; }
+.active .taronja { color: orange; }
+.active .groc { color: yellow; }
+.active .verd { color: green; }
+.active .blau-clar { color: lightblue; }
+.active .blau { color: blue; }
+.active .morat { color: purple; }
